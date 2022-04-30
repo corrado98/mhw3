@@ -1,0 +1,155 @@
+.choice-grid{
+    display: flex;
+    flex-wrap:wrap;
+justify-content: space-between;
+align-content: space-between;
+}
+
+.std{
+box-sizing: border-box;
+width: 32.5%;
+margin-bottom: 20px;
+background-color: #f4f4f4;
+border: 1px solid #dcdcdc;
+padding:10px;
+}
+
+
+.choice-grid div img {
+    height: 205px;
+    width: 205px;  
+}
+
+.question-name {
+    margin-bottom: 20px;
+}
+
+.selected{
+    background-color: #cfe3ff;
+    box-sizing: border-box;
+    width: 32.5%;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    padding:10px;
+    opacity: 1.0;
+}
+
+.opac{
+opacity: 0.6;
+box-sizing: border-box;
+width: 32.5%;
+margin-bottom: 20px;
+border: 1px solid #dcdcdc;
+padding:10px;
+background-color:#f4f4f4 ;
+}
+
+.hidden, .hidden2,.hidden3, .hiddenb,.h{
+    display: none;
+}
+
+
+
+footer{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    border-radius:10px;
+}
+
+.end div{
+font-weight: bold;
+font-size: 40px;
+margin: 20px 20px 18px 20px;
+}
+
+.end p{
+margin:0px 20px 18px 20px;
+}
+
+
+button{
+    background-color:#cecece ;
+    display: flex;
+    align-items: center;
+  justify-content:center ;
+  height: 50px;
+  width: 100%;
+  cursor:pointer;
+}
+
+button:hover{
+    background-color: #e0e0e0;
+}
+
+@media(max-width:700px){
+article{
+    width: 95%;
+    }
+    header div span {
+        background-color: transparent;
+    }    
+}
+
+@media(max-width:500px) {
+    .choice-grid div{
+        width: 49%;
+        } 
+}
+
+#primo{
+    position:absolute;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+#gallery{
+    position:absolute;
+    margin-left: 10px;
+    margin-top: 180px;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+#gallery div{
+    margin: 5px;
+    border: 3px solid yellow;
+    padding: 8px;
+}
+
+.button2{
+    margin-top: 140px;
+    margin-left: 10px;
+    background-color: yellow;
+    width: 15%;
+    height: 30px;
+    position: absolute;
+}
+
+.secondo{
+    position:absolute;
+    margin-left: 10px;
+    margin-top: 200px;
+    display: flex;
+    align-items: flex-start;
+flex-direction: column;
+}
+
+#secondo div{
+    font-weight: bold;
+}
+
+.risultati{
+position: absolute;
+display: flex;
+align-items: flex-start;
+flex-direction: column; 
+margin-left: 10px;
+margin-top: 400px;
+width: 360px;
+}
+
+.risultati h1 {
+    max-width:280px;
+}
